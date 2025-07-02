@@ -2,21 +2,24 @@
 
 A responsive React-based application for content moderators to efficiently review user-submitted content and take appropriate actions.
 
+##  Deployment
+
+The app is Live on:
+
+- [**Vercel**](https://moderation-queue.vercel.app/)
+
 ##  Features
 
-### Required Features 
 - **Post List View**: Clean, scannable list format with post details
 - **Individual Post Actions**: Approve/Reject buttons with visual feedback
 - **Content Preview Modal**: Full post content view with navigation
 - **Batch Operations**: Multi-select with checkboxes and batch actions
 - **State Management**: Zustand for efficient state handling
 
-### Nice-to-Have Features 
 - **Status Filtering**: Tab-based navigation (Pending/Approved/Rejected)
 - **Confirmation Dialogs**: Confirmation before rejection with reason input
 - **Responsive Design**: Works seamlessly on desktop and tablet
 
-### Bonus Features 
 - **Keyboard Shortcuts**: 
   - `A` - Approve selected/focused post
   - `R` - Reject selected/focused post  
@@ -27,7 +30,7 @@ A responsive React-based application for content moderators to efficiently revie
 
 ##  Tech Stack
 
-- **Frontend**: React 18 with Vite
+- **Frontend**: React 19 with Vite
 - **State Management**: Zustand
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
@@ -142,36 +145,3 @@ The app uses mock data defined in `src/data/mockData.js`. In a real application,
 - **Accessible**: Proper ARIA labels, keyboard navigation, focus management
 - **Performant**: Efficient rendering and state management
 - **User-Friendly**: Clear visual hierarchy and intuitive interactions
-
-##  Testing
-
-The application includes comprehensive error handling and edge case management:
-- Empty states for all filter types
-- Loading states during operations
-- Error handling for failed operations
-- Proper form validation
-- Keyboard accessibility
-
-##  Deployment
-
-The app is ready for deployment to any static hosting service:
-
-- **Netlify**: Drag and drop the `dist` folder
-- **Vercel**: Connect your GitHub repository
-- **GitHub Pages**: Use the build output
-
-##  Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-##  License
-
-This project is created as part of a technical assignment.
-
----
-
-**Time Investment**: Completed within the 2-day requirement with full feature implementation and polished user experience.
